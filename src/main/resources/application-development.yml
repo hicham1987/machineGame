@@ -1,0 +1,10 @@
+spring:
+  profiles: development
+  application:
+    name: game-service
+server:
+  port: 8198
+  #contextPath: /
+logging.level.org.springframework.security: DEBUG
+
+
